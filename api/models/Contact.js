@@ -16,7 +16,7 @@ const contactSchema = new Schema({
         unique: true
     },
     email: {
-        typy: String
+        type: String
     }
 })
 
