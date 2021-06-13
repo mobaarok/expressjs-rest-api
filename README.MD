@@ -1,5 +1,7 @@
 # Express JS Simple API
 This is a simple api to add, read, edit, delete contact list.
+## Note for this branch: 
+**In this branch i added `jsonwebtoken` authenticate features**
 
 # To Run it in local machine
 * first clone this project using git 
