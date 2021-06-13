@@ -13,8 +13,9 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 const contactRoute = require('./api/routes/contact');
-
-app.use('/api', contactRoute);
+const userRoute  = require('./api/routes/user')
+app.use('/api', contactRoute)
+app.use('/api', userRoute)
 
 app.get('/', (req, res) => {
   res.send('Welcomet to ExpressJS API!')
